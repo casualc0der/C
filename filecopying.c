@@ -5,15 +5,9 @@
 int main () {
 
 int c;
-
-while(c!= EOF) {
-
-putchar(c);
-c=getchar();
-
-}
-
-
-
-
+/*
+while ((c = getchar()) != EOF)
+putchar(c); 
+*/
+printf("%d",((c =  getchar()) != EOF));
 }
